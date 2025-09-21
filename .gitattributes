@@ -1,6 +1,2 @@
-05[[:space:]]IMDB/datasets/IMDB[[:space:]]Dataset.csv filter=lfs diff=lfs merge=lfs -text
-03_FMA_Dataset/dataset/tracks.csv filter=lfs diff=lfs merge=lfs -text
-03_FMA_Dataset/dataset/features.csv filter=lfs diff=lfs merge=lfs -text
-05_IMDB/datasets/IMDB[[:space:]]Dataset.csv filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
