@@ -1,21 +1,55 @@
 # My Data Science & AI Blog Projects
 
-Welcome! This repository serves as the central code hub for all the data science and machine learning projects featured on my Medium blog. Each project is designed to explore different concepts, datasets, and algorithms.
+Welcome! This repository is the central code hub for all the data science and machine learning projects featured on my Medium blog. Each project is a step-by-step journey exploring different datasets, algorithms, and real-world challenges.
 
-**You can find my articles and follow my data science journey on Medium:**
-**(https://medium.com/@eduardo_90451)**
+**You can read my articles and follow my data science journey on Medium:**
+**[Link to your main Medium profile page here]**
 
 ---
 
-## Projects
+## 📈 Projects
 
-Here you will find a list of the projects contained in this repository. Each project has its own dedicated folder.
+Here is a list of the projects contained in this repository, organized chronologically. Each project has its own dedicated folder.
 
-### 1. The Titanic: An Exploratory Data Analysis
-* **Description:** A deep dive into the classic Kaggle Titanic dataset to uncover the factors that influenced passenger survival. This is a foundational project in storytelling with data.
-* **Blog Post:** (https://medium.com/@eduardo_90451/decoding-the-titanic-my-first-journey-into-exploratory-data-analysis-2726ee2a74ec) 
+### 1. Titanic: Survival Prediction (Classification)
+* **Description:** My first end-to-end project. We perform an EDA to find the factors that influenced survival on the Titanic and then build a Logistic Regression model to predict the outcome. A classic introduction to binary classification.
+* **Articles:**
+    * [Part 1: Exploratory Data Analysis]((https://medium.com/@eduardo_90451/decoding-the-titanic-my-first-journey-into-exploratory-data-analysis-2726ee2a74ec))
+    * [Part 2: Building the Predictive Model]((https://medium.com/@eduardo_90451/decoding-the-titanic-building-a-predictive-model-50b8b4a67796))
+* **Code:** [View the Project Folder](https://github.com/WafleraVertical/Blog-AI-Projects/tree/main/01-Titanic-Survival)
 
-* **Code:** [/01_Titanic_Survival_EDA/](https://github.com/WafleraVertical/Blog-AI-Proyectos/tree/main/01_Titanic_Survival_EDA)
+---
+
+### 2. California Housing: Price Prediction (Regression)
+* **Description:** An introduction to regression models. In this project, we explore the classic California Housing dataset to uncover the drivers of real estate value and build a Linear Regression model to predict house prices.
+* **Articles:**
+    * [Part 1: An EDA of California Real Estate](https://medium.com/@eduardo_90451/location-location-data-an-analysis-of-california-housing-9d7d67922e9c)
+    * [Part 2: Building a Price Predictor](https://medium.com/@eduardo_90451/predicting-californias-prices-building-our-first-regression-model-0855d6a2f70e)
+* **Code:** [View the Project Folder](https://github.com/WafleraVertical/Blog-AI-Projects/tree/main/02-California-Housing)
+
+---
+
+### 3. Music Genre Classification (A Debugging Story)
+* **Description:** A real-world case study in debugging. This project documents the journey of trying to classify music genres, facing unexpected failures, and making a strategic pivot to the GTZAN dataset to achieve a successful result.
+* **Article:** [Sometimes You Have to Fire Your Dataset]((https://medium.com/@eduardo_90451/sometimes-you-have-to-fire-your-dataset-af932e23939c))
+* **Code:** [View the Project Folder](https://github.com/WafleraVertical/Blog-AI-Projects/tree/main/03-Music-Genre-Classification)
+
+---
+
+### 4. IMDB Movie Reviews: Sentiment Analysis (NLP)
+* **Description:** An introduction to Natural Language Processing (NLP). We learn how to clean and process text data, convert words into numbers using TF-IDF Vectorization, and build a model to classify movie reviews as either positive or negative.
+* **Article:** [From Text to Sentiment: Building a Movie Review Classifier](https://medium.com/python-in-plain-english/can-a-machine-understand-our-opinions-building-a-movie-review-classifier-3090be49195b)
+* **Code:** [View the Project Folder](https://github.com/WafleraVertical/Blog-AI-Projects/tree/main/04-IMDB-Sentiment-Analysis)
+
+---
+
+### 5. NFL Game Prediction (Feature Engineering & Optimization)
+* **Description:** A multi-part project where we build a model to predict the winner of NFL games. This series focuses on moving from a simple baseline to a more powerful predictor by using advanced feature engineering (creating dynamic "form" stats) and hyperparameter tuning.
+* **Articles:**
+    * [Part 1: An EDA of NFL Game Data]((https://medium.com/python-in-plain-english/moneyball-for-football-can-we-predict-match-winners-with-data-416d6237e652))
+    * [Part 2: Building the First Predictor](https://medium.com/python-in-plain-english/moneyball-for-football-can-we-predict-match-winners-with-data-53a94bcb0cc5)
+    * [Part 3: Fine-Tuning for Maximum Accuracy]([link-to-your-nfl-tuning-articl](https://medium.com/python-in-plain-english/moneyball-for-football-from-a-narrow-win-to-a-dominant-strategy-a85e813b2604)e)
+* **Code:** [View the Project Folder](https://github.com/WafleraVertical/Blog-AI-Projects/tree/main/05-NFL-Game-Prediction)
 
 ---
 *More projects will be added here as they are published!*
@@ -23,19 +57,8 @@ Here you will find a list of the projects contained in this repository. Each pro
 ---
 
 ## 🛠️ Common Technologies Used
-Across these projects, you will find a common set of tools:
 * Python
-* Pandas & NumPy for data manipulation
-* Matplotlib & Seaborn for data visualization
-* Scikit-learn for machine learning models
-* Jupyter Notebooks for analysis and presentation
-
-## 🚀 How to Use This Repository
-1.  Navigate to the folder of the project you are interested in.
-2.  Each project folder is self-contained and may include its own dataset and notebooks.
-3.  For projects that require specific libraries, a `requirements.txt` file may be included inside the project's folder.
-
----
-## 📫 Get In Touch
-* **Medium:** (https://medium.com/@eduardo_90451)
-* **LinkedIn:** www.linkedin.com/in/luis-eduardo-polaco-romero
+* Pandas & NumPy
+* Matplotlib & Seaborn
+* Scikit-learn
+* Jupyter Notebooks
