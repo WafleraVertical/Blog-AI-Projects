@@ -56,7 +56,7 @@ Here is a list of the projects contained in this repository, organized chronolog
 ### 6. Rossmann Store Sales: Time Series Forecasting
 * **Description:** An introduction to time series analysis. In this project, we explore a massive dataset of store sales to discover trends, seasonality, and other time-based patterns. This EDA serves as the foundation for building a sales forecasting model.
 * **Articles:**
-    * [Part 1: An EDA for Time Series Sales Data](Coming Soon!)
+    * [Part 1: An EDA for Time Series Sales Data]((https://medium.com/python-in-plain-english/finding-the-rhythm-of-business-an-eda-for-time-series-sales-data-6db299c14853))
     * [Part 2: Building a Sales Forecasting Model]() *(Coming Soon!)*
 * **Code:** [View the Project Folder](https://github.com/WafleraVertical/Blog-AI-Projects/tree/main/06-Rossmann-Store-Sales)
 
